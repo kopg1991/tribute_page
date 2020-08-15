@@ -1,0 +1,78 @@
+#main{
+    text-align: center;
+    font-family: sans-serif, Arial;
+    margin: 30px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#title{
+    font-size: 6vw;
+    margin:15;
+    text-align: center;
+
+}
+#id-tribute-info{
+    text-align: center;
+   
+}
+.paint{
+    font-size: 6vw;
+}
+ul ,.wp{
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+li, .wp  {
+    font-size: 3.5vw;
+   
+}
+figcaption{
+    font-size: 3.5vw;
+}
+
+.p-photos{
+    width: 100%;
+    max-width:550px;    
+    height: auto;
+}
+.p-div{
+  text-align: center;
+  width: 100%;
+  margin: auto ;
+  height: auto;
+  max-width: 275px;
+  
+}
+.wp{
+    text-align: center;
+}
+
+
+/*media queries*/
+
+@media screen and (min-width: 1000px){
+    li{
+        font-size: 1rem;
+       
+    }
+    figcaption{
+        font-size: 1rem;
+    }
+    .paint{
+        font-size: 3rem;
+    }
+    #title{
+        font-size: 4rem;  
+
+    }
+    .wp{
+        font-size: 2rem;
+        max-width: 1000px;
+         margin: 0 auto 50px auto;
+        text-align: center;
+        line-height: 1.6;
+    }
+}
